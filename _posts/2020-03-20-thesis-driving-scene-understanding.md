@@ -8,6 +8,7 @@ tags:
   - category2
 video: /video/liquid
 layout: post
+collection: publications
 ---
 
 {% if page.image %}
