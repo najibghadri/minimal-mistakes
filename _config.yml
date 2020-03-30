@@ -102,7 +102,7 @@ author:
   email            : #
   links:
     - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
+      icon: "fas fa-fw fa-envelope"
       url: "mailto:najibghadri9@gmail.com"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
@@ -121,7 +121,7 @@ footer:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/najib-ghadri-55347396/"
     - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
+      icon: "fab fa-fw fa-facebook"
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
