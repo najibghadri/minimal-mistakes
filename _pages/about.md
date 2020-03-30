@@ -1,6 +1,7 @@
 ---
 permalink: /
 title: ""
+title: "Najib Ghadri"
 layout: single
 excerpt: "Welcome"
 author_profile: true
