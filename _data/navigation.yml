@@ -4,7 +4,7 @@ main:
     url: /blog/
 
   - title: "Projects & Research"
-    url: /projects/
+    url: /#
 
   - title: "CV"
     url: /cv/

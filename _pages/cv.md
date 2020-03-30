@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 -------
-* M.S. in Computer Vision, Budapest University of Technology 2020
+* M.S. in Computer Science specializing in Computer Vision, Budapest University of Technology 2020
 * B.S. in Computer Science, Budapest University of Technology 2014
 
 Work experience
