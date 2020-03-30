@@ -14,24 +14,24 @@
 
 {% assign image_description = image_description | markdownify | strip_html | strip_newlines | escape_once %}
 
-<!-- {% if page.header.overlay_video and page.header.overlay_image % } -->
-<video class="page__hero--overlay"
-	loop
-	muted
-	autoplay
-	preload="auto"
-  poster="{{ overlay_img_path }}"
-  style="linear-gradient({{ overlay_filter }}, {{ overlay_filter }});"
-  >
-<source src="{{ page.header.overlay_video }}.mp4" type="video/mp4">
-<source src="{{ page.header.overlay_video }}.webm" type="video/webm">
-<!-- {% else %}
+
 <div class="page__hero{% if page.header.overlay_color or page.header.overlay_image %}--overlay{% endif %}"
   style="{% if page.header.overlay_color %}background-color: {{ page.header.overlay_color | default: 'transparent' }};{% endif %} {% if overlay_img_path %}background-image: {% if overlay_filter %}linear-gradient({{ overlay_filter }}, {{ overlay_filter }}), {% endif %}url('{{ overlay_img_path }}');{% endif %}"
 >
-{% endif %} -->
 
-
+  {% if page.header.overlay_video and page.header.overlay_image %}
+  <video class="page__hero--overlay"
+    loop
+    muted
+    autoplay
+    preload="auto"
+    poster="{{ overlay_img_path }}"
+    style="linear-gradient({{ overlay_filter }}, {{ overlay_filter }});"
+    >
+    <source src="{{ page.header.overlay_video }}.mp4" type="video/mp4">
+    <source src="{{ page.header.overlay_video }}.webm" type="video/webm">
+  </video>
+  {% endif %}
 
   {% if page.header.overlay_color or page.header.overlay_image %}
     <div class="wrapper">
@@ -67,8 +67,4 @@
     <span class="page__hero-caption">{{ page.header.caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
   {% endif %}
 
-<!-- {% if page.header.overlay_video % } -->
-</video>
-<!-- {% else %}
 </div>
-{% endif %} -->
