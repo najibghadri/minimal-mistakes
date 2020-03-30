@@ -11,7 +11,7 @@ header:
   video: /images/thesis/montage
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: the-mandalorian-wallpaper.png
+  overlay_image: /thesis/montage
   caption: "Rendered with CARLA Simulator, the tool I used for my thesis"
 
 
