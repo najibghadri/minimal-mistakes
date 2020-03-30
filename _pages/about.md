@@ -9,10 +9,10 @@ redirect_from:
   - /about/
   - /about.html
 header:
-  video: /images/thesis/montage
   overlay_color: "#000"
-  overlay_filter: "0.5"
+  overlay_filter: "0.15"
   overlay_image: /images/thesis/montage.jpg
+  overlay_video: /images/thesis/montage
   caption: "Rendered with CARLA Simulator, the tool I used for my thesis"
 
 
