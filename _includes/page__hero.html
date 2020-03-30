@@ -16,7 +16,7 @@
 
 
 <div class="page__hero{% if page.header.overlay_color or page.header.overlay_image %}--overlay{% endif %}"
-  style="{% if page.header.overlay_color %}background-color: {{ page.header.overlay_color | default: 'transparent' }};{% endif %} {% if overlay_img_path %}background-image: {% if overlay_filter %}linear-gradient({{ overlay_filter }}, {{ overlay_filter }}), {% endif %}url('{{ overlay_img_path }}');{% endif %}"
+  style="{% if page.header.overlay_color %}background-color: {{ page.header.overlay_color | default: 'black' }};{% endif %}"
 >
 
   {% if page.header.overlay_video and page.header.overlay_image %}
@@ -26,45 +26,48 @@
     autoplay
     preload="auto"
     poster="{{ overlay_img_path }}"
-    style="linear-gradient({{ overlay_filter }}, {{ overlay_filter }});"
     >
     <source src="{{ page.header.overlay_video }}.mp4" type="video/mp4">
     <source src="{{ page.header.overlay_video }}.webm" type="video/webm">
   </video>
   {% endif %}
 
-  {% if page.header.overlay_color or page.header.overlay_image %}
-    <div class="wrapper">
-      <h1 id="page-title" class="page__title" itemprop="headline">
-        {% if paginator and site.paginate_show_page_num %}
-          {{ site.title }}{% unless paginator.page == 1 %} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}
-        {% else %}
-          {{ page.title | default: site.title | markdownify | remove: "<p>" | remove: "</p>" }}
+  <div class="bigwrapper"
+    style="{% if overlay_img_path %}background-image: {% if overlay_filter %}linear-gradient({{ overlay_filter }} 0, transparent 10%, transparent 90%, {{ overlay_filter }}) 100%, {% endif %}url('{{ overlay_img_path }}');{% endif %}"
+  >
+    {% if page.header.overlay_color or page.header.overlay_image %}
+      <div class="wrapper">
+        <h1 id="page-title" class="page__title" itemprop="headline">
+          {% if paginator and site.paginate_show_page_num %}
+            {{ site.title }}{% unless paginator.page == 1 %} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}
+          {% else %}
+            {{ page.title | default: site.title | markdownify | remove: "<p>" | remove: "</p>" }}
+          {% endif %}
+        </h1>
+        {% if page.tagline %}
+          <p class="page__lead">{{ page.tagline | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+        {% elsif page.header.show_overlay_excerpt != false and page.excerpt %}
+          <p class="page__lead">{{ page.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
         {% endif %}
-      </h1>
-      {% if page.tagline %}
-        <p class="page__lead">{{ page.tagline | markdownify | remove: "<p>" | remove: "</p>" }}</p>
-      {% elsif page.header.show_overlay_excerpt != false and page.excerpt %}
-        <p class="page__lead">{{ page.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
-      {% endif %}
-      {% if page.read_time %}
-        <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
-      {% endif %}
-      {% if page.header.cta_url %}
-        <p><a href="{{ page.header.cta_url | relative_url }}" class="btn btn--light-outline btn--large">{{ page.header.cta_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
-      {% endif %}
-      {% if page.header.actions %}
-        <p>
-        {% for action in page.header.actions %}
-          <a href="{{ action.url | relative_url }}" class="btn btn--light-outline btn--large">{{ action.label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
-        {% endfor %}
-      {% endif %}
-    </div>
-  {% else %}
-    <img src="{{ page.header.image | relative_url }}" alt="{{ image_description }}" class="page__hero-image">
-  {% endif %}
-  {% if page.header.caption %}
-    <span class="page__hero-caption">{{ page.header.caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
-  {% endif %}
+        {% if page.read_time %}
+          <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
+        {% endif %}
+        {% if page.header.cta_url %}
+          <p><a href="{{ page.header.cta_url | relative_url }}" class="btn btn--light-outline btn--large">{{ page.header.cta_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
+        {% endif %}
+        {% if page.header.actions %}
+          <p>
+          {% for action in page.header.actions %}
+            <a href="{{ action.url | relative_url }}" class="btn btn--light-outline btn--large">{{ action.label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
+          {% endfor %}
+        {% endif %}
+      </div>
+    {% else %}
+      <img src="{{ page.header.image | relative_url }}" alt="{{ image_description }}" class="page__hero-image">
+    {% endif %}
+    {% if page.header.caption %}
+      <span class="page__hero-caption">{{ page.header.caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+    {% endif %}
+  </div>
 
 </div>

@@ -166,21 +166,31 @@ body {
   -webkit-animation-delay: 0.25s;
   animation-delay: 0.25s;
 
+
   &--overlay {
     position: relative;
     margin-bottom: 2em;
-    padding: 8em 0;
-    @include clearfix;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    -webkit-animation: $intro-transition;
-    animation: $intro-transition;
-    -webkit-animation-delay: 0.25s;
-    animation-delay: 0.25s;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     a {
       color: #fff;
+    }
+
+    .bigwrapper {
+      width: 100%;
+      padding: 8em 0;
+      flex: 1;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      @include clearfix;
+      -webkit-animation: $intro-transition;
+      animation: $intro-transition;
+      -webkit-animation-delay: 0.25s;
+      animation-delay: 0.25s;
     }
 
     .wrapper {
@@ -211,6 +221,12 @@ body {
         font-size: $type-size-1;
       }
     }
+
+    video {
+      z-index: -1;
+      width: 100%;
+      position: absolute;
+    }
   }
 }
 
@@ -237,6 +253,11 @@ body {
 
   @include breakpoint($large) {
     padding: 5px 10px;
+  }
+
+  &::selection {
+    color: #fff;
+    background: #000;
   }
 
   a {
