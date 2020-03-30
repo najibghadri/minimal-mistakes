@@ -4,7 +4,6 @@ date: 2019-09-22
 permalink: /motivation-problem/
 tags:
   - sociology
-  - economy
 ---
 
 There is more capital than workforce.
@@ -30,4 +29,4 @@ These imbalances we have in our society today create conflicts between people, n
 An important action to take today is balance our current society more from a lot of aspects: welfare, culture, political status, education, views, religions, etc. Balancing happens with talking, writing, reading, learing about everything around us. In other words being open, stepping out of our comfort zones. Both on a personal level and on the level of society. Otherwise we might risk going into the worse type of unknown.
 
 
-(Original Linkedin post)[https://www.linkedin.com/pulse/motivation-problem-najib-ghadri/]
+[Original Linkedin post](https://www.linkedin.com/pulse/motivation-problem-najib-ghadri/)
