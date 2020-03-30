@@ -1,2 +1,2 @@
 ## Najib's Research Website and Blog
-Based on [Minimal Mistakes Jekyll theme](https://mmistakes.github.io/minimal-mistakes/)
+Based on [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes)
