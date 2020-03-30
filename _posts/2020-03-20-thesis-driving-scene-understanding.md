@@ -1,7 +1,7 @@
 ---
 title: 'Self-supervised Driving Scene Understanding with Energy-based concept models based on CNN synergy and stereo imaging'
 date: 2020-03-20
-permalink: /posts/2012/08/blog-post-4/
+permalink: /thesis-scene-understanding/
 tags:
   - cool posts
   - category1
