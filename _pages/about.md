@@ -2,7 +2,7 @@
 permalink: /
 title: ""
 title: "Najib Ghadri"
-layout: single
+layout: splash
 excerpt: "Computer Vision, Machine Learning, Web and mobile apps"
 author_profile: true
 redirect_from:
