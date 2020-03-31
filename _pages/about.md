@@ -13,7 +13,7 @@ header:
   overlay_filter: "0.15"
   overlay_image: /media/thesis/montage.jpg
   overlay_video: /media/thesis/montage2
-  caption: "Rendered with CARLA Simulator, for scene understanding thesis "
+  caption: "Rendered with CARLA Simulator, for scene understanding thesis <a href="/thesis-scene-understanding/">Read more</a>"
 classes: wide
 feature_row:
   - image_path: /blog/
@@ -50,7 +50,5 @@ I made a startup initiative for a mobile social network, [Gambjo](http://gambjo.
 I envision the [Next Web](https://najibghadri.com/next-web/), the future of the World Wide Web, where you have decentralization of central authorities (like DNS and CAs) and validity, security of information and digital identity through distributed ladder technologies, and linked-data and interoperability of web, mobile and desktop applications. This, implemented on a new platform that acts as both an operating system and a web/mobile/desktop application platform, could drastically improve productivity over our legacy systems of Linux which I favor for compatibility and open-source cooperation and Windows which is sucessful in applications for basically all sectors in business, and probably be useful in IoT too.
 
 However any company could initiate this direction, maybe even a Gambjo :)..
-
- 
 
 {% include feature_row %}
