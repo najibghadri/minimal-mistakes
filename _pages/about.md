@@ -20,7 +20,7 @@ feature_row:
     alt: "Blog"
     title: "Blog"
     excerpt: "Blog about my research, work, ideas."
-    url: "blog"
+    url: "/blog/"
     btn_label: "Let's see"
     btn_class: "btn--inverse"
   - image_path: /media/thesis/montage.jpg
@@ -41,7 +41,7 @@ feature_row:
 
 About me
 --------
-I studied computer science in Budapest University of Technology, and finished my Masters in 2020. I specialized in different and exciting branches of today's computer science: Software Engineering, Blockchain and Web technologies, and in the last year Computer Vision, Deep Learning and Machine Learning in general.
+I studied computer science in Budapest University of Technology, and will finish my Masters in 2020 summer. I specialized in different and exciting branches of today's computer science: Software Engineering, Blockchain and Web technologies, and in the last year Computer Vision, Deep Learning and Machine Learning in general.
 
 My recent work has been focused on artifical intelligence and computer vision with my thesis, [Self-supervised Scene Understanding](https://najibghadri.com/thesis-scene-understanding/)
 
@@ -51,8 +51,6 @@ I envision the [Next Web](https://najibghadri.com/next-web/), the future of the 
 
 However any company could initiate this direction, maybe even a Gambjo :)..
 
-{% include feature_row %}
+ 
 
-Blog
---------
-Thumbnails here
+{% include feature_row %}
