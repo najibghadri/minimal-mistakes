@@ -9,10 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
- 
-<form method="get" action="/media/Resume.pdf">
-   <button class="btn btn--inverse" type="submit">Download CV</button>
-</form>
+
+<a class="btn btn--inverse" href="/media/Resume.pdf">Download</a>
 
 Education
 -------
