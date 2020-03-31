@@ -1,7 +1,7 @@
 ---
-title: 'Motivation problem'
+title: 'Equilibrium problem'
 date: 2019-09-22
-permalink: /motivation-problem/
+permalink: /equilibrium-problem/
 tags:
   - sociology
 ---
