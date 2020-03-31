@@ -11,11 +11,31 @@ redirect_from:
 header:
   overlay_color: "#000"
   overlay_filter: "0.15"
-  overlay_image: /images/thesis/montage.jpg
-  overlay_video: /images/thesis/montage2
+  overlay_image: /media/thesis/montage.jpg
+  overlay_video: /media/thesis/montage2
   caption: "Rendered with CARLA Simulator, the tool I used for my thesis"
 classes: wide
-
+feature_row:
+  - image_path: /blog/
+    alt: "Blog"
+    title: "Blog"
+    excerpt: "Blog about my research, work, ideas."
+    url: "blog"
+    btn_label: "Let's see"
+    btn_class: "btn--inverse"
+  - image_path: /media/thesis/montage.jpg
+    alt: "Self-supervised Scene Understanding"
+    title: "Self-supervised Scene Understanding"
+    excerpt: "Autonomous driving scene understanding."
+    url: "/thesis-scene-understanding/"
+    btn_label: "More"
+    btn_class: "btn--inverse"
+  - image_path: /media/star.png
+    title: "Next Web"
+    excerpt: "A description of the next w.w.w."
+    url: "/next-web/"
+    btn_label: "More"
+    btn_class: "btn--inverse"
 
 ---
 
