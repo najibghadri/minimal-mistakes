@@ -13,30 +13,8 @@ header:
   overlay_filter: "0.15"
   overlay_image: /media/thesis/montage.jpg
   overlay_video: /media/thesis/montage2
-  caption: "Rendered with CARLA Simulator, for scene understanding thesis <a href="/thesis-scene-understanding/">Read more</a>"
+  caption: "Rendered with CARLA Simulator, for scene understanding thesis <a href='/thesis-scene-understanding/'>Read more</a>"
 classes: wide
-feature_row:
-  - image_path: /blog/
-    alt: "Blog"
-    title: "Blog"
-    excerpt: "Blog about my research, work, ideas."
-    url: "/blog/"
-    btn_label: "Let's see"
-    btn_class: "btn--inverse"
-  - image_path: /media/thesis/montage.jpg
-    alt: "Self-supervised Scene Understanding"
-    title: "Self-supervised Scene Understanding"
-    excerpt: "Autonomous driving scene understanding."
-    url: "/thesis-scene-understanding/"
-    btn_label: "More"
-    btn_class: "btn--inverse"
-  - image_path: /media/star.png
-    title: "Next Web"
-    excerpt: "A description of the next w.w.w."
-    url: "/next-web/"
-    btn_label: "More"
-    btn_class: "btn--inverse"
-
 ---
 
 About me
@@ -51,4 +29,3 @@ I envision the [Next Web](https://najibghadri.com/next-web/), the future of the 
 
 However any company could initiate this direction, maybe even a Gambjo :)..
 
-{% include feature_row %}
