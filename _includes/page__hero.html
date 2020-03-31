@@ -27,13 +27,15 @@
     preload="auto"
     poster="{{ overlay_img_path }}"
     >
-    <source src="{{ page.header.overlay_video }}.mp4" type="video/mp4">
     <source src="{{ page.header.overlay_video }}.webm" type="video/webm">
+    <source src="{{ page.header.overlay_video }}.mp4" type="video/mp4">
   </video>
   {% endif %}
 
   <div class="bigwrapper"
-    style="{% if overlay_img_path %}background-image: {% if overlay_filter %}linear-gradient({{ overlay_filter }} 0, transparent 10%, transparent 90%, {{ overlay_filter }}) 100%, {% endif %}url('{{ overlay_img_path }}');{% endif %}"
+    style="{%if overlay_img_path and not page.header.overlay_video %}
+              background-image: url('{{ overlay_img_path }}');
+           {% endif %}"
   >
     {% if page.header.overlay_color or page.header.overlay_image %}
       <div class="wrapper">
