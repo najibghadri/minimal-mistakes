@@ -9,6 +9,9 @@ redirect_from:
 
 {% include base_path %}
 
+ <button class="btn btn--inverse">Download CV</button>
+
+
 Education
 -------
 * M.S. in Computer Science specializing in Computer Vision, Budapest University of Technology 2020
