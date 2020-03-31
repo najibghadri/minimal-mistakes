@@ -27,21 +27,11 @@ My recent work has been focused on artifical intelligence and computer vision wi
 
 I made a startup initiative for a mobile social network, [Gambjo](http://gambjo.com/) with 5 other engineer friends of mine, with the goal of helping real outdoor social interactions through events and meetups, however we had to halt the idea, as apparently it's not our time. But we still believe in it!
 
-I envision the Next Web, the future of the WWW, where you have decentralization of central authorities (like DNS and CAs) and validity, security of information and digital identity through distributed ladder technologies, and linked-data and interoperability of web/mobile/desktop applications. This implemented on a new platform that acts as both an operating system and a web/mobile/desktop application platform could drastically improve productivity over our legacy systems of Linux which I favor for compatibility and open-source cooperation and Windows which is sucessful in applications for basically all sectors in business.
+I envision the [Next Web](https://najibghadri.com/next-web/), the future of the World Wide Web, where you have decentralization of central authorities (like DNS and CAs) and validity, security of information and digital identity through distributed ladder technologies, and linked-data and interoperability of web, mobile and desktop applications. This, implemented on a new platform that acts as both an operating system and a web/mobile/desktop application platform, could drastically improve productivity over our legacy systems of Linux which I favor for compatibility and open-source cooperation and Windows which is sucessful in applications for basically all sectors in business, and probably be useful in IoT too.
 
 However any company could initiate this direction, maybe even a Gambjo :)..
 
-Self-supervised Scene Understanding with Energy-based concept models based on CNN synergy and stereo imaging
---------
-
-Read more link here
-
-Gambjo - The next social network
---------
-
-
-Study of Next Web
---------
+{% include feature_row %}
 
 Blog
 --------
