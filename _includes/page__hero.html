@@ -33,9 +33,7 @@
   {% endif %}
 
   <div class="bigwrapper"
-    style="{%if overlay_img_path and not page.header.overlay_video %}
-              background-image: url('{{ overlay_img_path }}');
-           {% endif %}"
+    style="{%if overlay_img_path and not page.header.overlay_video %}background-image: url('{{ overlay_img_path }}');{% endif %}"
   >
     {% if page.header.overlay_color or page.header.overlay_image %}
       <div class="wrapper">
