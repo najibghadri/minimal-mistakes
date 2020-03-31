@@ -14,7 +14,7 @@ header:
   overlay_image: /images/thesis/montage.jpg
   overlay_video: /images/thesis/montage2
   caption: "Rendered with CARLA Simulator, the tool I used for my thesis"
-
+classes: wide
 
 
 ---
