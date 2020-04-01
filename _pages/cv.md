@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 
-<a class="btn btn--inverse" href="/media/Resume.pdf">Download CV</a>
+<a class="btn btn--primary" href="/media/Resume.pdf">Download CV</a>
 
 Education
 -------
