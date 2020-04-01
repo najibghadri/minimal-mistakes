@@ -83,6 +83,12 @@ body {
 }
 
 .page__content {
+
+  video {
+    width: 100%;
+    margin: 0 0 $indent-var;
+  }
+
   h2 {
     padding-bottom: 0.5em;
     border-bottom: 1px solid $border-color;

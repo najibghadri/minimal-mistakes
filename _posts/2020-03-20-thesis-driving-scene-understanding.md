@@ -32,5 +32,8 @@ Here you can see how it looks like with one image for each side:
     <source src="/media/thesis/montage2.mp4" type="video/mp4">
   </video>
 
-With the output combination of these algorithms then I will perform ”self-supervised” deep-learning
+With the output combination of CNNs and other algorithms I will then perform ”self-supervised” deep-learning
 with continuous energy-based method to learn the latent space of generic driving scene scenarios.
+
+
+This is going to be the next part of my thesis that I am still working on.
