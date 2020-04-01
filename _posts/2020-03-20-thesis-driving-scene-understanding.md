@@ -5,6 +5,7 @@ permalink: /thesis-scene-understanding/
 tags:
   - research
 collection: publications
+classes: wide
 ---
 
 The concept is the following: I use modern CNNs suchs as YOLOv3, R-CNN or others to perform object detection, semantic segmentation, and additional
