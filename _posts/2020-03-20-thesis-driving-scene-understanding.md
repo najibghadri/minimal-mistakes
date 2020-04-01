@@ -19,7 +19,7 @@ be on any kind of road, use camera effects, generate ground truth of any kind pr
 
 After extensive research I stumbled upon [CARLA Simulator](http://carla.org/). The project is developed by the Barcelonian university UAB's computer vision CVC Lab. This simulator has a really good API that let's us do what I described above in python.
 
-The following is the rendering architecture in my system. Front stereo imaging, two 45° angled corner stereos and two side stereos.
+The following is the sensor architecture in my system; Only 10 90° FOV RGB cameras, Front stereo, left/right 45° angled corner stereos and left/right side stereos.
 Here you can see how it looks like with one image for each side:
 
   <video
