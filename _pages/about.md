@@ -19,6 +19,8 @@ classes: wide
 
 About me
 --------
+Check out my latest work The Face-time gaming website [quarantime.io](https://quarantime.io/) and have some fun with your friends! 😀🥳
+
 I studied computer science in Budapest University of Technology, and will finish my Masters in 2020 summer. I specialized in different and exciting branches of today's computer science: Software Engineering, Blockchain and Web technologies, and in the last year Computer Vision, Deep Learning and Machine Learning in general.
 
 My recent work has been focused on artifical intelligence and computer vision with my thesis, [Self-supervised Scene Understanding](https://najibghadri.com/thesis-scene-understanding/)
