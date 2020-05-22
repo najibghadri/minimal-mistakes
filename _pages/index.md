@@ -24,7 +24,8 @@ Check out my latest work the Face-time Gaming website [QuaranTime.io](https://qu
 
 I studied computer science in Budapest University of Technology, and will finish my Masters in 2020 summer. I specialized in different and exciting branches of today's computer science: Software Engineering, Blockchain and Web technologies, and in the last year Computer Vision, Deep Learning and Machine Learning in general.
 
-My recent work has been focused on artifical intelligence and computer vision with my thesis, [Self-supervised Scene Understanding](https://najibghadri.com/msc-thesis/)
+My recent work has been focused on artifical intelligence and computer vision with my thesis, [Driving Scene Understanding with Stereo Imaging and Deep CNN synergy
+](https://najibghadri.com/msc-thesis/)
 
 I made a startup initiative for a mobile social network, [Gambjo](http://gambjo.com/) with some engineer friends of mine, with the goal of helping real outdoor social interactions through events and meetups, however we had to halt the idea, as apparently it's not our time. But we still believe in it!
 
