@@ -13,7 +13,7 @@ header:
   overlay_filter: "0.15"
   overlay_image: /media/thesis/montage.jpg
   overlay_video: /media/thesis/montage2
-  caption: 'Rendered with CARLA Simulator, for scene understanding thesis <a href="/msc-thesis/">Read more</a>'
+  caption: ' <a href="/msc-thesis/">READ MORE</a>'
 classes: wide
 ---
 
