@@ -6,14 +6,14 @@ layout: single
 excerpt: "Computer Vision, Machine Learning, Web and mobile apps"
 author_profile: true
 redirect_from:
-  - /about/
-  - /about.html
+  - /index/
+  - /index.html
 header:
   overlay_color: "#000"
   overlay_filter: "0.15"
   overlay_image: /media/thesis/montage.jpg
   overlay_video: /media/thesis/montage2
-  caption: 'Rendered with CARLA Simulator, for scene understanding thesis <a href="/thesis-scene-understanding/">Read more</a>'
+  caption: 'Rendered with CARLA Simulator, for scene understanding thesis <a href="/msc-thesis/">Read more</a>'
 classes: wide
 ---
 
@@ -24,7 +24,7 @@ Check out my latest work the Face-time Gaming website [QuaranTime.io](https://qu
 
 I studied computer science in Budapest University of Technology, and will finish my Masters in 2020 summer. I specialized in different and exciting branches of today's computer science: Software Engineering, Blockchain and Web technologies, and in the last year Computer Vision, Deep Learning and Machine Learning in general.
 
-My recent work has been focused on artifical intelligence and computer vision with my thesis, [Self-supervised Scene Understanding](https://najibghadri.com/thesis-scene-understanding/)
+My recent work has been focused on artifical intelligence and computer vision with my thesis, [Self-supervised Scene Understanding](https://najibghadri.com/msc-thesis/)
 
 I made a startup initiative for a mobile social network, [Gambjo](http://gambjo.com/) with 5 other engineer friends of mine, with the goal of helping real outdoor social interactions through events and meetups, however we had to halt the idea, as apparently it's not our time. But we still believe in it!
 
