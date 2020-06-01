@@ -1,11 +1,5 @@
 ---
-title: 'Self-supervised Driving Scene Understanding with Energy-based concept models based on CNN synergy and stereo imaging'
-date: 2020-03-20
 permalink: /msc-thesis/
-tags:
-  - research
-collection: publications
-classes: wide
 ---
 
 The concept is the following: I use modern CNNs suchs as YOLOv3, R-CNN or others to perform object detection, semantic segmentation, and additional
