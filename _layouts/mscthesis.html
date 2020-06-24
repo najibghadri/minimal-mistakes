@@ -47,9 +47,25 @@
       </div>
       <h3>June 2020</h3>
       <h3 style="font-variant: small-caps;">Master’s Thesis</h3>
+      <a href="/assets/mscthesis/thesis.pdf" class="uri"><h4>PDF version</h4></a>
     </div>
     <div id="root"></div>
     <div class="containter">
+      <h1>Contents</h1>
+      <ol>
+        <li><a href="#abstract"><h3>Abstract</h3></a></li>
+        <li>      <a href="#introduction"><h3>Introduction</h3></a></li>
+        <li>      <a href="#chap:sensors"><h3>Sensors</h3></a></li>
+        <li>      <a href="#chap:perceptions"><h3>Computer vision</h3></a></li>
+        <li>      <a href="#chap:relatedwork"><h3>Other solutions</h3></a></li>
+        <li>      <a href="#chap:carlasim"><h3>CARLA Simulator</h3></a></li>
+        <li>      <a href="#chap:assumptions"><h3>Assumptions made and limitations</h3></a></li>
+        <li>      <a href="#chap:designimplementation"><h3>Design and implementation</h3></a></li>
+        <li>      <a href="#chap:results"><h3>Results</h3></a></li>
+        <li>      <a href="#chap:improvement"><h3>Improvement notes</h3></a></li>
+        <li>      <a href="#chap:experimental"><h3>Experimental results</h3></a></li>
+        <li>      <a href="#chap:conclusion"><h3>Conclusion</h3></a></li>
+        </ol>
       <h1 id="abstract" class="unnumbered">Abstract</h1>
       <p>
         Autonomous driving is undoubtedly the future of transportation. The
@@ -195,7 +211,7 @@
         <li><p>Pedestrian crossing detection</p></li>
         <li>
           <p>
-            Knowledge of surroundings and road for example with the help of high
+            Knowledge of surroundings and road, for example with the help of high
             definition maps
           </p>
         </li>
@@ -332,28 +348,29 @@
       </p>
       <h2 id="thesis-structure">Thesis structure</h2>
       <p>
-        In I give an overview of the widely used sensors for peception in the
+        In chapter <a href="#chap:sensors">Sensors</a> I give an overview of 
+        the widely used sensors for peception in the
         automotive industry: RGB cameras, radar, LiDAR and ultrasonic sensors.
-        In I talk about different kinds of perceptions, state-of-the-art
+        In chapter <a href="#chap:perceptions">Computer vision</a> I talk about different kinds of perceptions, state-of-the-art
         Convolutional Networks and computer vision algorithms that are useful
         for our use-case.
       </p>
       <p>
-        In , I analyze and compare different self-driving car solutions: Tesla
-        and Waymo self-driving cars and MobilEye autopilot. In , I introduce
+        In chapter <a href="#chap:relatedwork">Other solutions</a>, I analyze
+         Tesla’s self-driving car solution. In chapter <a href="#chap:carlasim">CARLA Simulator</a>, I introduce
         CARLA Simulator and some notable features of it.
       </p>
       <p>
-        In I define the technical assumptions that I made in order to simplify
+        In  chapter <a href="#chap:assumptions">Assumptions made and limitations</a> I define the technical assumptions that I made in order to simplify
         the task and the resulting limitations.
       </p>
       <p>
-        details the design and implementation of the simulator configuration,
+        Chapter <a href="#chap:designimplementation">Design and implementation</a> details the design and implementation of the simulator configuration,
         the detector algorithm and the webvisualizer.
       </p>
       <p>
-        Then in I present different measurements and results, I discuss ways to
-        improve the system in . In I present experimentations that ended up not
+        In chapter <a href="#chap:results">Results</a> I present different measurements and results, then I discuss ways to
+        improve the system in chapter <a href="#chap:improvement">Improvement notes</a>. In chapter <a href="#chap:experimental">Experimental results</a> I present experimentations that ended up not
         being part of the detection and finally close with a conclusion.
       </p>
       <h1 id="chap:sensors">Sensors</h1>
@@ -2138,12 +2155,12 @@
       <h1 id="chap:conclusion">Conclusion</h1>
       <p>
         The final scene understanding algorithm is not a system that can be
-        applied by itself in a real scenaro, however it builds on the same basic
+        applied by itself in a real scenario, however it builds on the same basic
         ideas for scene understanding for cars. More importantly this thesis
-        help me understand all the building block required for autonomous
+        helped me understand the building blocks required for autonomous
         driving. The work of companies like Tesla and Waymo constitues many top
-        researchers in the field. In Hungary this market is yet in early stages
-        but companies like BOSCH or a smaller company like AIMotive are already
+        researchers in the field. In Hungary this market is in early stages
+        yet, but companies like BOSCH or a smaller company like AIMotive are already
         present and working on the field with a good pace.
       </p>
       <p>
@@ -2186,7 +2203,7 @@
           </p>
         </div>
         <div id="ref-yolact-plus-arxiv2019">
-          <p>———. 2019b. “YOLACT++: Better Real-Time Instance Segmentation.”</p>
+          <p>2019b. “YOLACT++: Better Real-Time Instance Segmentation.”</p>
         </div>
         <div id="ref-DBLP:journals/corr/abs-1903-11027">
           <p>
