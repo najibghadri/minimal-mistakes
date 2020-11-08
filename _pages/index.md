@@ -20,6 +20,7 @@ classes: wide
 About me
 --------
 Check out my latest work the Face-time Gaming website [QuaranTime.io](https://quarantime.io/) and have some fun with your friends! 😀🥳
+I participated in the Junction Hackhaton 2020 with my friends, and we made the conept app, [SpendWise](https://spendwise-c6b5b.web.app/), that helps you understand your financial habits and tendencies, ultimately helping you save money.
 
 
 I studied computer science in Budapest University of Technology, and finished my Masters in 2020. I specialized in different and exciting branches of today's computer science: Software Engineering, Blockchain and Web technologies, and in the last year Computer Vision, Deep Learning and Machine Learning in general.
