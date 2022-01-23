@@ -1,5 +1,10 @@
 ---
 permalink: /
+layout: mscthesis
+---
+
+<!-- ---
+permalink: /
 title: ""
 title: "Najib Ghadri"
 layout: single
@@ -33,4 +38,4 @@ I made a startup initiative for a mobile social network, [Gambjo](http://gambjo.
 I envision the [Next Web](https://najibghadri.com/next-web/), the future of the World Wide Web, where you have decentralization of central authorities (like DNS and CAs) and validity, security of information and digital identity through distributed ladder technologies, linked-data and interoperability of web/mobile/desktop applications. These, implemented on a new platform, that acts as both an operating system and a platform of web/mobile/desktop applications, could drastically improve productivity of both developers and consumers over our legacy systems of Linux and Windows, first of which I favor for compatibility and open-sourceness, and the latter which is sucessful in applications for basically all business sectors. Further more this system could be useful for IoT applications even, if done right.
 
 Any company could initiate this direction, maybe even a new one.
-
+ -->
